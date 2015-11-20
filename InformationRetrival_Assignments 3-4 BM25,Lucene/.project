@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>InformationRetrival_Assignments</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Web-Crawler v0.1</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Web-Crawler v0.1/.classpath</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Web-Crawler%20v0.1/.classpath</locationURI>
+		</link>
+		<link>
+			<name>Web-Crawler v0.1/.project</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Web-Crawler%20v0.1/.project</locationURI>
+		</link>
+		<link>
+			<name>Web-Crawler v0.1/LoU.txt</name>
+			<type>1</type>
+			<locationURI>copy_PROJECT_LOC/LoU.txt</locationURI>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>copy_PROJECT_LOC</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/web-crawl</value>
+		</variable>
+	</variableList>
+</projectDescription>
