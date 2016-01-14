@@ -16,6 +16,7 @@ public class Main {
 	static int urlcount = 1; // tracks the count of the url traversed
 	static int counter = 0;  // counts the no of valid urls to be written to the file
 	static String wikiBase = "https://en.wikipedia.org/wiki";
+
 	static int cutoff = 0;
 	static int discovercount=0;
 	// this is the parent class which is called from the main class where processing takes place
@@ -53,6 +54,7 @@ public class Main {
         /*for (String string : repo) 
 			System.out.println(string);*/
         if(!checkForKeyword(url,keyword))
+
         {
         	repo.subList(i, repo.size()).clear();
         	System.out.println("depth " + depth + "reposize " + repo.size());
