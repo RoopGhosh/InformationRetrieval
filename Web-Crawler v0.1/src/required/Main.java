@@ -54,10 +54,9 @@ public class Main {
         /*for (String string : repo) 
 			System.out.println(string);*/
         if(!checkForKeyword(url,keyword))
-
         {
         	repo.subList(i, repo.size()).clear();
-        	System.out.println("depth " + depth + "reposize " + repo.size());
+        	System.out.println("depth :  " + depth + "reposize " + repo.size());
         }
         
         
